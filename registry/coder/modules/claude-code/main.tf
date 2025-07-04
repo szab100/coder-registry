@@ -252,7 +252,7 @@ resource "coder_app" "claude_code_web" {
   slug         = local.claude_code_app_slug
   display_name = "Claude Code Web"
   agent_id     = var.agent_id
-  url          = "http://localhost:3284/"
+  url          = "http://localhost:3284/chat/embed/"
   icon         = var.icon
   order        = var.order
   group        = var.group
